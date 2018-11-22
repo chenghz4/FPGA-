@@ -1,0 +1,237 @@
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr18/yyy.xst" -ofn "F:/Xilinx/wenjian/rr18/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr18/yyy.xst" -ofn "F:/Xilinx/wenjian/rr18/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr18/yyy.xst" -ofn "F:/Xilinx/wenjian/rr18/yyy.syr" 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr18/yyy.xst" -ofn "F:/Xilinx/wenjian/rr18/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr19/yyy.xst" -ofn "F:/Xilinx/wenjian/rr19/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr19/yyy.xst" -ofn "F:/Xilinx/wenjian/rr19/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr19/yyy.xst" -ofn "F:/Xilinx/wenjian/rr19/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr19/yyy.xst" -ofn "F:/Xilinx/wenjian/rr19/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "F:/Xilinx/wenjian/rr20/yyy.xst" -ofn "F:/Xilinx/wenjian/rr20/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 "yyy.ngc" yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 "yyy.ngc" yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+sch2sym -intstyle ise -family spartan3e -refsym yyy D:/333zch/999/yyy.sch D:/333zch/999/yyy.sym 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 
+xst -intstyle ise -ifn "D:/333zch/999/yyy.xst" -ofn "D:/333zch/999/yyy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fd.ucf -p xc3s100e-cp132-4 yyy.ngc yyy.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o yyy_map.ncd yyy.ngd yyy.pcf 
+par -w -intstyle ise -ol high -t 1 yyy_map.ncd yyy.ncd yyy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml yyy.twx yyy.ncd -o yyy.twr yyy.pcf -ucf fd.ucf 
+bitgen -intstyle ise -f yyy.ut yyy.ncd 

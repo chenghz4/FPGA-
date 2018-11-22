@@ -1,0 +1,4 @@
+vhdtdtfi -lib work F:/Xilinx/wenjian/rr18/shumaguan.v -lang verilog -prj rr16 -o shumaguan.spl -module shumaguan -template F:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shumaguan.spl F:/Xilinx/wenjian/rr18/shumaguan.sym 
+vhdtdtfi -lib work F:/Xilinx/wenjian/rr18/shumaguan.v -lang verilog -prj rr16 -o shumaguan.spl -module shumaguan -template F:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shumaguan.spl F:/Xilinx/wenjian/rr18/shumaguan.sym 

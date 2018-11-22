@@ -1,0 +1,23 @@
+[Inputs]
+CLK
+left
+right
+rest
+a
+c
+nandu
+=rand_num[7:0]=
+[Outputs]
+HS
+VS
+leda
+=RED[2:0]=
+=GREEN[2:0]=
+=BLUE[1:0]=
+=fenshu[7:0]=
+=life[3:0]=
+=LL[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel test
+

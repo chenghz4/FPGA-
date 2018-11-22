@@ -1,0 +1,44 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 01 15:17:30 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "a" LOCATE = SITE "F3" LEVEL 1;
+COMP "c" LOCATE = SITE "E2" LEVEL 1;
+COMP "HS" LOCATE = SITE "J14" LEVEL 1;
+COMP "VS" LOCATE = SITE "K13" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "segment<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "segment<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "segment<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "segment<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "segment<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "segment<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "segment<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "segment<7>" LOCATE = SITE "N13" LEVEL 1;
+COMP "leda" LOCATE = SITE "G1" LEVEL 1;
+COMP "left" LOCATE = SITE "B2" LEVEL 1;
+PIN left_pin<0> = BEL "left" PINNAME PAD;
+PIN "left_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "rest" LOCATE = SITE "C11" LEVEL 1;
+COMP "LL<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "LL<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "nandu" LOCATE = SITE "N3" LEVEL 1;
+COMP "right" LOCATE = SITE "A3" LEVEL 1;
+PIN right_pin<0> = BEL "right" PINNAME PAD;
+PIN "right_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "RED<0>" LOCATE = SITE "C14" LEVEL 1;
+COMP "RED<1>" LOCATE = SITE "D13" LEVEL 1;
+COMP "RED<2>" LOCATE = SITE "F13" LEVEL 1;
+COMP "digit_anode<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "digit_anode<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "digit_anode<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "digit_anode<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "GREEN<0>" LOCATE = SITE "F14" LEVEL 1;
+COMP "GREEN<1>" LOCATE = SITE "G13" LEVEL 1;
+COMP "GREEN<2>" LOCATE = SITE "G14" LEVEL 1;
+COMP "BLUE<0>" LOCATE = SITE "H13" LEVEL 1;
+COMP "BLUE<1>" LOCATE = SITE "J13" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

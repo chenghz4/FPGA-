@@ -1,0 +1,37 @@
+NET "clk" LOC = "B8";
+NET "rest" LOC = "C11";
+NET "leda" LOC = "G1";
+NET "nandu" LOC = "N3";
+NET "left" LOC = "B2";
+NET "right" LOC = "A3";
+NET "VS" LOC = "K13";
+NET "HS" LOC = "J14";
+NET "RED<0>" LOC = "C14";
+NET "RED<1>" LOC = "D13";
+NET "RED<2>" LOC = "F13";
+NET "GREEN<0>" LOC = "F14";
+NET "GREEN<1>" LOC = "G13";
+NET "GREEN<2>" LOC = "G14";
+NET "BLUE<0>" LOC = "H13";
+NET "BLUE<1>" LOC = "J13";
+NET "a" LOC = "F3";
+NET "c" LOC = "E2";
+NET "LL[0]" LOC = "M5";
+NET "LL[1]" LOC = "M11";
+//NET "led1" LOC="G1";
+NET "digit_anode<0>" LOC="F12";
+NET "digit_anode<1>" LOC="J12";
+NET "digit_anode<2>" LOC="M13";
+NET "digit_anode<3>" LOC="K14";
+NET "segment<0>" LOC="L14";
+NET "segment<1>" LOC="H12";
+NET "segment<2>" LOC="N14";
+NET "segment<3>" LOC="N11";
+NET "segment<4>" LOC="P12";
+NET "segment<5>" LOC="L13";
+NET "segment<6>" LOC="M12";
+NET "segment<7>" LOC="N13";
+
+
+NET "left" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "right" CLOCK_DEDICATED_ROUTE = FALSE;

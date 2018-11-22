@@ -1,0 +1,10 @@
+[Inputs]
+clk
+[Outputs]
+clk_50M
+clk_25M
+clk_50M1
+[BiDir]
+[ATTRIBUTES]
+VeriModel fenpin
+

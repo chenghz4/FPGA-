@@ -1,0 +1,3 @@
+vhdtdtfi -lib work F:/Xilinx/wenjian/rr18/bcd.v -lang verilog -prj rr16 -o bcd.spl -module bcd -template F:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd.spl F:/Xilinx/wenjian/rr18/bcd.sym 
+vhdtdtfi -lang verilog -prj rr16 -o D:/333zch/999/bcd.tfi -lib work D:/333zch/999//bcd.v -module bcd -template D:/isexx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

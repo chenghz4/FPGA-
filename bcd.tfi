@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+bcd instance_name (
+    .life(life), 
+    .fenshu(fenshu), 
+    .fenshu2(fenshu2), 
+    .fenshu1(fenshu1), 
+    .fenshu0(fenshu0), 
+    .shengming(shengming)
+    );
+
+

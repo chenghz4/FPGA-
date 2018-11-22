@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/Xilinx/wenjian/rr18/suiji.v -lang verilog -prj rr16 -o suiji.spl -module suiji -template F:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e suiji.spl F:/Xilinx/wenjian/rr18/suiji.sym 

@@ -1,0 +1,104 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : yyy.vf
+// /___/   /\     Timestamp : 11/01/2016 00:21:07
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/333zch/999/yyy.vf -w D:/333zch/999/yyy.sch
+//Design Name: yyy
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module yyy(a, 
+           c, 
+           clk, 
+           left, 
+           nandu, 
+           rest, 
+           right, 
+           BLUE, 
+           digit_anode, 
+           GREEN, 
+           HS, 
+           leda, 
+           LL, 
+           RED, 
+           segment, 
+           VS);
+
+    input a;
+    input c;
+    input clk;
+    input left;
+    input nandu;
+    input rest;
+    input right;
+   output [1:0] BLUE;
+   output [3:0] digit_anode;
+   output [2:0] GREEN;
+   output HS;
+   output leda;
+   output [1:0] LL;
+   output [2:0] RED;
+   output [7:0] segment;
+   output VS;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire [7:0] XLXN_4;
+   wire [3:0] XLXN_5;
+   wire [3:0] XLXN_6;
+   wire [3:0] XLXN_7;
+   wire [3:0] XLXN_8;
+   wire [7:0] XLXN_22;
+   wire [3:0] XLXN_23;
+   
+   bcd  XLXI_1 (.fenshu(XLXN_22[7:0]), 
+               .life(XLXN_23[3:0]), 
+               .fenshu0(XLXN_7[3:0]), 
+               .fenshu1(XLXN_6[3:0]), 
+               .fenshu2(XLXN_5[3:0]), 
+               .shengming(XLXN_8[3:0]));
+   fenpin  XLXI_2 (.clk(clk), 
+                  .clk_25M(XLXN_1), 
+                  .clk_50M(XLXN_2), 
+                  .clk_50M1(XLXN_3));
+   shumaguan  XLXI_3 (.CLK(XLXN_2), 
+                     .fenshu0(XLXN_7[3:0]), 
+                     .fenshu1(XLXN_6[3:0]), 
+                     .fenshu2(XLXN_5[3:0]), 
+                     .shengming(XLXN_8[3:0]), 
+                     .digit_anode(digit_anode[3:0]), 
+                     .segment(segment[7:0]));
+   suiji  XLXI_4 (.clk_25M(XLXN_1), 
+                 .rand_num(XLXN_4[7:0]));
+   test  XLXI_16 (.a(a), 
+                 .c(c), 
+                 .CLK(XLXN_3), 
+                 .left(left), 
+                 .nandu(nandu), 
+                 .rand_num(XLXN_4[7:0]), 
+                 .rest(rest), 
+                 .right(right), 
+                 .BLUE(BLUE[1:0]), 
+                 .fenshu(XLXN_22[7:0]), 
+                 .GREEN(GREEN[2:0]), 
+                 .HS(HS), 
+                 .leda(leda), 
+                 .life(XLXN_23[3:0]), 
+                 .LL(LL[1:0]), 
+                 .RED(RED[2:0]), 
+                 .VS(VS));
+endmodule

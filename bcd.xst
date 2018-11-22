@@ -1,0 +1,5 @@
+set -tmpdir "F:/Xilinx/wenjian/rr18/xst/projnav.tmp"
+set -xsthdpdir "F:/Xilinx/wenjian/rr18/xst"
+elaborate
+-ifn bcd.prj
+-ifmt mixed
